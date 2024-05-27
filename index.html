@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <div id="header">
+        <div class="container">
+            <!-- NAV BAR -->
+            <div class="nav-bar">
+            <nav>
+                <h1 class="logo">Portfolio.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="bi bi-x-circle" ></i>
+                </ul>
+                <i class="bi bi-list" ></i>
+            </nav>
+        </div>
+    </div>
+</div>
+
+    <!-- TEXT FOR HOME PAGE -->
+   <div class="home-page">
+    <div class="container">
+    <div class="homepage-text">
+    <p class="one-text">HELLO!</p>   
+    <h2>I'm <span class="nametext">Anurag Paneri</span></h2>
+    <p class="sec-text">Software Engineer</p>
+    <p class="th-text"> A Full Stack Web Developer<p>
+    <a href="./Resume.pdf" download  class="res-button">Resume</a>
+        
+</div>
+    <img class="homepage-img" src="./Images/pngegg.png" alt="Png Image">
+   </div>  
+   </div>
+   
+   
+<!-----------------------------About Section--------------------------------------------------------------->
+   <div id="about">
+    <div class="container">
+
+    <div class="row">
+        <div class="about-col-1">
+            <img src="./Images/anurag.jpg" alt="Profile Image">
+        </div>
+        <div class="about-col-2">
+        <h2 class="sub-title">About Me</h2>
+        <p class="about-me-p">Passionate Software Engineer with the zest of exploring and developing web applications and backend systems.
+           Equipped with great problem solving and promising skill-sets.
+           Based on a strong foundation and a diverse Development experience with various technologies used,
+           I believe,I can play a significant role for the software development!
+        </p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Web Development</span><br>-Building Full Stack Web apps</li>
+                <li><span>Java Programming</span><br>-Coding in java language</li>
+                <li><span>ReactJs</span><br>-Complex Front-end Development</li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2022 -</span><br>-Learning Full Stack Web Dev at Learn & Build Pvt. Ltd.</li>
+                <li><span>2023 -</span><br>-Programming in Java language at Aryan Infomatrix</li>
+                <li><span>2024 -</span><br>-Front-end Development by ReactJs</li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2020</span><br>-12th - The Aditya Birla Public School</li>
+                <li><span>2021-2025</span><br>-4th Year - Poornima College of Engineering</li>
+               
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+</div>
+</div>
+
+<!------------------------------------Services--------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="service-lists">
+
+            <div>
+                <i class="bi bi-layout-wtf"></i>
+                <h2>Web Development</h2>
+                <p>Web development, also known as website development, refers to the tasks associated with creating,
+                     building, and maintaining websites and web applications that run online on a browser.</p>
+                     <a href="https://www.geeksforgeeks.org/web-development/" class="know-more-txt">Know More</a>        
+            </div>
+
+            <div>
+                <i class="bi bi-filetype-java"></i>
+                <h2>Java Programming</h2>
+                <p>Java is a highly popular, object-oriented programming language. 
+                    This platform independent programming language is utilized for web development,and much more. </p>
+                <a href="https://www.geeksforgeeks.org/java/" class="know-more-txt">Know More</a>    
+            </div>
+
+            <div>
+                <i class="bi bi-database-check"></i>
+                <h2>Database Management</h2>
+                <p>Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data.
+                   A DBMS serves as an interface between an end-user and a database.</p>
+                   <a href="https://www.geeksforgeeks.org/dbms/" class="know-more-txt">Know More</a>       
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!----------------------------------------Portfolio---------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="./Images/TinDog.png" alt="Project Image">
+                <div class="work-info">
+                    <h3>TinDog Website</h3>
+                    <p>Website build with bootstrap for new dogs to meet.</p>
+                    <a href="https://anuragg11.github.io/TinDog-Website/"><button class="button">See Project</button></a>
+                </div>
+            </div>
+            
+
+            <div class="work">
+                <img src="./Images/SimonGame.png" alt="Project Image" height="200px">
+                <div class="work-info">
+                    <h3>Simon Game </h3>
+                    <p>A popular game developed with Javascript</p>
+                    <a href="https://anuragg11.github.io/Simon-Game/"><button class="button">See Project</button></a>
+                
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./Images/DrumKit.png" alt="Project Image" height="200px">
+                <div class="work-info">
+                    <h3>Drum Kit</h3>
+                    <p>Drum kit to play for kids using Javascript</p>
+                    <a href="https://anuragg11.github.io/Drum-Kit/"><button class="button">See Project</button></a>
+                
+                </div>
+            </div>
+</div>
+            <div class="button btn-work">See More</div>
+</div>
+</div>
+
+
+<!-----------------------------------Contact Us------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="contact-left">
+               <h2 class="sub-title">Contact Us</h2>
+             <a href="mailto:paneri.2002@gmail.com"><p><i class="bi bi-send"></i>paneri.2002@gmail.com</p></a>
+              <a href="tel:7976195860"><p><i class="bi bi-telephone-inbound"></i>7976195860</p></a>
+            </div>
+
+               <div class="contact-right">
+               <div class="connect-icons">
+               <a href="https://www.instagram.com/__anu_22?igsh=MTMzZ3JzZG84YzB4cQ==" ><i class="bi bi-instagram"></i></a>
+               <a href="https://www.linkedin.com/in/anurag-paneri-314780225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><i class="bi bi-linkedin"></i></a>
+               <a href="mailto:paneri.2002@gmail.com" ><i class="bi bi-envelope-at"></i></a>
+               </div>
+
+               <div>
+               <a href="./Resume.pdf" download  class="button button2">Download CV</a>
+            </div>
+          </div>
+
+          <div class="contact-right2">
+          <a href="https://maps.app.goo.gl/Tnao3Xjry3V3YQPV7"><p class="p-one"><i class="bi bi-geo-alt"></i>Jaipur,Rajasthan</p></a>
+           <a href="#header"><p><i class="bi bi-house"></i>Home</p></a>
+         </div>
+
+        
+
+         </div>
+    </div>   
+</div>
+
+<div class="copyright">
+    <p>copyright © 2024 Anurag.</p>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="index.js" charset="UTF-8"></script>    
+</body>
+</html>
